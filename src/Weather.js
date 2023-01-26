@@ -3,6 +3,18 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div className="weather">
+      <form>
+        <div className="row">
+          <div className="col-9">
+            <input
+              type="search"
+              placeholder="Enter a City.."
+              className="form-control"
+            />
+            <input type="Submit" value="Search" className="btn btn-primary" />
+          </div>
+        </div>
+      </form>
       <h1>San Francisco</h1>
       <ul>
         <li>Wednesday 07:00</li>
@@ -10,10 +22,7 @@ export default function Weather() {
       </ul>
       <div className="row">
         <div className="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="Mostly Sunny"
-          >
+          <img src="" alt="Mostly Sunny">
             6°F
           </img>
         </div>
