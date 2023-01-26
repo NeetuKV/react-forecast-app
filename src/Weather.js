@@ -22,9 +22,8 @@ export default function Weather() {
       </ul>
       <div className="row">
         <div className="col-6">
-          <img src="" alt="Mostly Sunny">
-            6°F
-          </img>
+          <img src="" alt="Mostly Sunny" />
+          6°F
         </div>
         <div className="col-6">
           <ul>
