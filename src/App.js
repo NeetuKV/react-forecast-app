@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
         <h1>Weather Application</h1>
         <Weather />
-        <button className="btn btn-primary">Button</button>
+
         <footer>
           Coded by Praneetha.
           <a href="https://github.com/NeetuKV/react-forecast-app">
