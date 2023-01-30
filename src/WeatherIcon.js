@@ -12,14 +12,14 @@ export default function WeatherIcon(props) {
     "04n": "RAIN",
     "09d": "SLEET",
     "09n": "SLEET",
-    "010d": "SNOWY",
-    "010n": "SNOW",
-    "011d": "WIND",
-    "011n": "WIND",
-    "013d": "FOG",
-    "013n": "FOG",
-    "050d": "CLEAR_DAY",
-    "050n": "CLEAR_DAY",
+    "10d": "SNOWY",
+    "10n": "SNOW",
+    "11d": "WIND",
+    "11n": "WIND",
+    "13d": "FOG",
+    "13n": "FOG",
+    "50d": "CLEAR_DAY",
+    "50n": "CLEAR_DAY",
   };
 
   return (
