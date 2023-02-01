@@ -1,11 +1,20 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
-  border: 1px solid #000000;
+  border: 1px solid #5518d8;
   border-radius: 15px;
   padding: 10px;
+  color: rgb(247, 2, 2);
+  background-color: rgb(180, 208, 138);
+}
+.App h1 {
+  text-align: center;
 }
 .App footer {
   font-size: 11px;
   margin: 10px 0;
+}
+
+body {
+  color: rgb(13, 114, 114);
 }
